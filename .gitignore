@@ -1,0 +1,4 @@
+
+node_modules
+.env
+Disease_prediction_model.pkl

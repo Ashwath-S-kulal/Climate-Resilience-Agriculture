@@ -1,0 +1,144 @@
+name,tMin,tMax,pMin,pMax,water,notes,imageUrl
+Rice,20,32,1200,3000,high,"Lowland & irrigated systems, high humidity required",https://cdn.britannica.com/89/140889-050-EC3F00BF/Ripening-heads-rice-Oryza-sativa.jpg
+Sugarcane,20,34,1100,3000,high,"Subtropical/Tropical crop, long growing season",https://www.netafimindia.com/bynder/689FFBA0-D431-4D9A-8BFB1805602316FC-sugarcane-with-driperline.jpg
+Banana/Plantain,18,35,1000,3000,high,"Tropical fruit, sensitive to frost",https://sdzwildlifeexplorers.org/sites/default/files/2019-01/banana-tree.jpg
+Maize (corn),15,32,400,1200,med,"Wide adaptation, thrives in warm conditions",https://agritech.tnau.ac.in/agriculture/maize-272894_1280.jpg
+Soybean,12,30,500,1000,med,"Legume, sensitive to photoperiod",https://img.freepik.com/free-photo/soybean-isolated-white-background_74190-7801.jpg
+Pigeon Pea,18,33,400,1200,low,"Drought-tolerant pulse, deep-rooted",https://www.protectourlivelihood.in/wp-content/uploads/2025/04/Image-Pulses.jpg
+Chickpea,10,30,300,700,low,"Cool-season pulse, drought tolerant",https://www.protectourlivelihood.in/wp-content/uploads/2025/04/Image-Pulses.jpg
+Cotton,18,35,400,1200,med,"Requires long, warm, frost-free period",https://t4.ftcdn.net/jpg/06/84/31/79/360_F_684317966_Pn9qU1DEfW5zpwoj25znJ1i0VdaOM2Px.jpg
+Finger Millet,15,32,200,800,low,"Hardy, rainfed millet variety",https://milletbank.in/cdn/shop/articles/pexels-deep-malik-132129520-10738421.jpg
+Pearl Millet,18,36,200,800,low,"Very drought and heat tolerant",https://milletbank.in/cdn/shop/articles/pexels-deep-malik-132129520-10738421.jpg
+Sorghum,16,36,200,900,low,"Highly drought tolerant, versatile grain",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzAWYsN_9qvUlcw4UdPPpbyMjT-1I9SDOcg&s
+Groundnut (peanut),18,32,400,1200,med,"Requires warm season and well-drained soil",https://www.zettafarms.com/wp-content/uploads/2024/01/blog-3.jpg
+Wheat,6,20,300,900,med,"Cool-season crop (winter and spring varieties)",https://img.freepik.com/free-photo/green-spikelets-wheat-scatter-with-blurred-background_169016-36163.jpg?semt=ais_hybrid&w=740&q=80
+Barley,6,22,250,700,low,"Hardy cereal, high salt tolerance",https://cdn.britannica.com/14/190514-004-88D43D14.jpg
+Rapeseed/Canola,5,25,350,1000,med,"Oilseed crop, sensitive to moisture stress",https://media.post.rvohealth.io/wp-content/uploads/2019/10/rapeseed-oil-field-flower-732x549-thumbnail.jpg
+Tea,13,25,1500,4000,high,"Requires high, well-distributed rainfall and humidity",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9aS0r8TeM5A-natvHRKfOGrwpf-LPrpRuQ&s
+Coffee,15,24,1200,3000,high,"Needs cool subtropical highlands and high rainfall",https://m.media-amazon.com/images/I/81Qs754hn6L.jpg
+Potato,7,20,400,1500,med,"Cool-season root crop, sensitive to heat stress",https://cdn.mos.cms.futurecdn.net/Ys52dqtT4fLt6m3rpRLdxm.jpg
+Tomato,12,30,400,1200,med,"Warm-season fruit/vegetable, sensitive to water stress",https://cdn.britannica.com/16/187216-050-CB57A09B/tomatoes-tomato-plant-Fruit-vegetable.jpg
+Onion,12,25,300,900,low,"Requires dry weather for curing/harvest",https://cdn.shopify.com/s/files/1/0579/7924/0580/files/76326b1997_480x480.jpg?v=1719218667
+Carrot,4,22,350,1000,low,"Cool-season root crop, deep soil preferred",https://static.vecteezy.com/system/resources/thumbnails/047/899/660/small/young-carrot-plants-growing-in-fertile-garden-soil-photo.jpg
+Cassava,20,35,800,2500,med,"Drought tolerant, tropical root crop",https://www.shutterstock.com/image-photo/cassava-root-green-leaves-plant-600nw-2401319335.jpg
+Yam,20,35,800,2500,med,"Tropical tuber crop, requires deep, fertile soil",https://cdn.britannica.com/20/199420-050-7E7CC2EE/Leaves-fruits-air-potato-yam.jpg
+Sunflower,18,30,300,900,low,"Oilseed crop, good drought tolerance",https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg
+Millet (general),18,36,150,700,low,"Highly drought tolerant group of small cereals",https://milletbank.in/cdn/shop/articles/pexels-deep-malik-132129520-10738421.jpg?v=1743156050&width=1500
+Oat,5,21,400,800,med,"Cool-season crop, thrives in high latitudes",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Rye,4,20,300,600,low,"Very hardy, thrives in poor soil and cold climates",https://t4.ftcdn.net/jpg/04/00/01/67/360_F_400016766_66vV8y4iJ4K6iC3zWvB01Y98vC6zW36o.jpg
+Lentil,10,25,300,600,low,"Drought-tolerant pulse, cool-season crop",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Common Bean,15,28,600,1500,med,"Wide variety of types (kidney, navy), warm season",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Cowpea,20,35,400,800,low,"Also known as black-eyed pea, heat tolerant",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Mung Bean,20,30,500,1000,med,"Fast-growing summer crop, short duration",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Sesame,20,32,300,800,low,"Drought-tolerant oilseed, needs well-drained soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Safflower,10,30,300,600,low,"Deep-rooted, drought tolerant, oilseed/dye crop",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Mustard,5,25,300,800,med,"Cool-season oilseed, multiple varieties",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Coconut,20,35,1300,3000,high,"Requires high humidity and coastal conditions, salt tolerant",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Oil Palm,24,32,1800,4000,high,"Requires uniform high rainfall in tropical zones",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Olive,15,30,400,800,med,"Mediterranean climate, very drought-tolerant, perennial",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Sweet Potato,20,35,750,2000,med,"Drought tolerant once established, warm-season tuber",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Taro (Dasheen),20,30,1500,2500,high,"Requires wet, swampy conditions (paddy cultivation)",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Cabbage,12,25,300,700,med,"Cool-season leafy vegetable, sensitive to extreme heat",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Spinach,7,20,300,600,med,"Cool-season green, quick to bolt in heat",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Cucumber,18,30,500,1000,med,"Requires warm weather and consistent moisture, vine crop",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Bell Pepper,18,32,500,1000,med,"Warm season, sensitive to low temperatures",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Eggplant (Brinjal),20,35,600,1200,med,"Loves heat and sun, tropical origins",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Okra (Lady's Finger),20,35,500,1000,med,"Heat-tolerant summer crop, thrives in warm soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Lettuce,10,20,300,600,med,"Sensitive to heat, cool-season crop",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Grape,10,30,300,800,med,"Requires dry summers for ripening, Mediterranean climate",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Apple,4,24,600,1200,med,"Requires chill hours for bud break, temperate zone",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Orange/Citrus,13,32,900,1800,med,"Needs warm climate, sensitive to severe frost",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Mango,24,38,900,2500,high,"Requires a distinct dry period for flowering",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Pineapple,20,32,1000,3000,high,"Drought tolerant but yield increases with water, tropical fruit",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Avocado,15,30,1000,2000,high,"Subtropical fruit, sensitive to frost",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Almond,15,35,300,800,low,"Requires a long, hot, dry summer, prone to spring frost damage",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Cashew,20,38,800,2000,med,"Tropical nut, thrives in well-drained, sandy soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Cocoa,20,32,1500,3000,high,"Needs high humidity, shade, and rich soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Pepper (Black),20,35,1500,3500,high,"Requires high rainfall, humidity, and tropical climate",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9pm5V0z359RxHqq1ihQsX0Ip3mdcffmcKA&s
+Ginger,20,30,1500,3000,high,"Needs well-distributed rainfall and high humidity, shade tolerant",https://media.post.rvohealth.io/wp-content/uploads/2023/09/ginger-root-still-life-1296x728-header.jpg
+Turmeric,20,30,1500,3000,high,"Needs well-distributed rainfall and high humidity, tropical tuber",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgcybzPhezEBBZ8srCtDtDogeF3chlpO9B_w&s
+Jute,24,38,1000,2000,high,"Fiber crop, requires standing water for retting",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Rubber,25,35,2000,4000,high,"Tropical plantation crop, requires high and uniform rainfall",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Tobacco,18,30,500,1200,med,"Wide climatic range, requires fertile soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Hops,7,25,700,1200,med,"Requires long daylight hours and cool nights, perennial vine",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Quinoa,10,25,300,800,low,"Very hardy, frost-tolerant, high altitude pseudocereal",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Buckwheat,10,25,400,800,med,"Fast-maturing, cool-season pseudocereal",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Kale,10,25,300,600,med,"Very cold tolerant, cool-season brassica",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Broccoli,12,25,300,700,med,"Cool season crop, sensitive to severe heat",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Cauliflower,15,25,300,700,med,"Cool season crop, more sensitive to heat than broccoli",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Asparagus,10,30,500,1000,med,"Perennial crop, deep-rooted",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Artichoke,15,25,400,800,med,"Thrives in mild winters and hot, dry summers",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Watermelon,20,35,400,800,med,"Warm season vine crop, needs heat for sugar development",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Cantaloupe (Muskmelon),20,32,400,800,med,"Warm season vine crop, sensitive to humidity",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Pumpkin,18,30,500,1000,med,"Versatile squash crop, wide variety of types",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Zucchini,18,30,500,1000,med,"Fast-growing summer squash, high yield",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Sweet Pepper,20,32,500,1200,med,"Loves heat, requires consistent water",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Chili Pepper,20,35,500,1200,med,"Very heat tolerant, tropical origins",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Leek,10,25,400,800,med,"Cool-season allium, long growing period",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Garlic,10,25,300,700,low,"Long growing season, prefers mild winter and dry spring",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Shallot,10,25,300,700,low,"Similar to onion but milder, less water required than bulb onion",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Radish,5,20,300,600,low,"Very fast growing, cool-season root",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Turnip,7,20,400,800,low,"Root and leafy vegetable, cool-season",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Beetroot,10,25,400,800,med,"Root and leafy vegetable, wide temperature tolerance",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Celery,15,22,600,1000,high,"Requires constant moisture, cool temperatures, sensitive to heat",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Arugula (Rocket),10,20,300,600,low,"Cool season green, quick bolting in heat",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Strawberry,10,25,600,1200,med,"Perennial fruit, sensitive to frost during flowering",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Blueberry,10,28,800,1500,med,"Requires acidic soil and chill hours, perennial shrub",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Raspberry,10,25,800,1500,med,"Requires fertile, well-drained soil, perennial cane",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Peach,12,30,600,1000,med,"Requires significant chill hours, deciduous tree",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Pear,8,25,600,1000,med,"Requires significant chill hours, temperate zone",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Plum,8,28,600,1000,med,"Varies widely by cultivar, generally temperate",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Apricot,10,32,300,700,low,"Needs dry, warm summers, sensitive to spring frost",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Cherry,5,25,600,1200,med,"Requires significant chill hours, temperate fruit",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Fig,15,35,400,800,low,"Drought tolerant once established, Mediterranean",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Kiwi,10,30,1000,1500,med,"Needs fertile, well-drained soil, temperate vine",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Pomegranate,15,35,300,800,low,"Drought and heat tolerant, subtropical fruit",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Date Palm,25,40,100,500,low,"Requires extreme heat and low humidity for fruit set, arid zones",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Pecan,10,30,800,1500,med,"Requires deep, fertile soil, temperate nut tree",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Walnut,8,28,600,1200,med,"Requires deep soil and cool winters, temperate nut tree",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Hazelnut,8,25,600,1000,med,"Requires cool, moist conditions, temperate shrub/tree",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Macadamia,20,30,1200,2500,high,"Tropical/subtropical nut, sensitive to frost and drought",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Pistachio,15,38,200,500,low,"Extremely drought and heat tolerant, needs cold winter for chilling",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Clove,20,30,1500,3000,high,"Tropical evergreen tree, high humidity required",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Cinnamon,20,30,1200,2500,high,"Tropical evergreen tree, requires good drainage",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Nutmeg,20,30,1500,3000,high,"Tropical spice, needs shade when young, high humidity",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Vanilla,20,30,1500,3000,high,"Orchid vine, needs shade and support, tropical rainforest climate",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Saffron,5,20,300,500,low,"Grown from corms, requires dry summer and cool autumn, spice",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Sugarcane (Fibre),20,34,1100,3000,high,"Used for biomass/biofuel, same tolerance as sugar cane",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Hemp,15,30,600,1000,med,"Fiber and seed crop, fast growing",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Flax (Linseed),5,20,400,800,med,"Fiber and oilseed crop, cool-season annual",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Sisal,20,35,600,1200,low,"Fiber crop, very drought tolerant, semi-arid zones",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Aloe Vera,15,35,200,500,low,"Medicinal/cosmetic, very drought tolerant succulent",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Lavender,10,30,300,700,low,"Aromatic herb, thrives in poor, dry, rocky soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Mint,10,30,500,1000,high,"Perennial herb, needs constant moisture and rich soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Basil,20,30,600,1000,med,"Warm season herb, very sensitive to cold",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Oregano,15,30,300,700,low,"Perennial herb, drought tolerant once established",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Thyme,10,25,300,600,low,"Perennial herb, prefers well-drained, sandy soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Rosemary,10,30,300,700,low,"Perennial shrub, very drought tolerant",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Sorghum (Sweet),18,36,300,900,low,"Used for syrup/biofuel, similar tolerance to grain sorghum",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Triticale,5,20,400,800,med,"Hybrid of wheat and rye, very hardy cereal",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Spelt,5,20,400,800,med,"Ancient wheat species, hardy, lower nutrient requirements",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Einkorn,5,20,400,800,med,"Ancient wheat species, lower yield, very robust",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Durum Wheat,10,25,300,700,low,"Used for pasta, requires hot, dry finish, adapted to Mediterranean",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Lupin,10,25,400,800,low,"Pulse crop, thrives in poor, acidic soil, excellent cover crop",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Fava Bean (Broad),10,20,600,1200,med,"Cool season legume, prefers rich, loamy soil",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Pinto Bean,15,30,500,1000,med,"Common variety of bean, warm season annual",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Adzuki Bean,20,30,500,1000,med,"Popular in East Asia, warm season pulse",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Castor Bean,20,35,400,1000,low,"Oilseed crop, toxic if ingested raw, very heat tolerant",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Jojoba,15,40,100,400,low,"Waxy oil producer, extreme desert tolerance, perennial shrub",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Kenaf,20,35,600,1200,med,"Fiber crop, fast growing, annual",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Ramie,20,35,1000,2000,high,"Fiber crop, needs high humidity, perennial shrub",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Agave,18,35,200,500,low,"Used for tequila/syrup, extreme drought tolerance, succulent",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Opium Poppy,10,25,300,700,low,"Used for medicinal alkaloids and seeds, cool-season annual",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Ginseng,10,20,1000,1500,high,"Medicinal root, requires deep shade, perennial",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Rosehip,10,25,600,1000,med,"Fruit of the rose plant, very hardy, ornamental/food",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Elderberry,10,25,600,1200,med,"Berry shrub, medicinal/food uses, temperate zone",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Cranberry,5,25,800,1500,high,"Requires bogs or sandy bogs for production, perennial shrub",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s
+Apricot (Industrial),10,32,300,700,low,"Grown for oil/kernel extraction, similar needs to fruit apricot",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w-vQ4mB9D6g_3qH8Cj3c-xG4J5E0r4p0zA&s
+Jatropha,20,35,300,800,low,"Biofuel seed crop, very hardy, poisonous seeds",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-x7fXn9Z1eK-gW5O8p0y8C1G5f0D9e8g3A&s
+Pongamia,20,35,500,1500,low,"Biofuel seed crop, salt tolerant, perennial tree",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4h7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Moringa,20,40,300,1500,low,"Multi-use tree, very drought tolerant, fast growing",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-8k-tU8D8F7-7Y4E-1mO9X9tT8B6W_2i_Q&s
+Neem,20,38,400,1200,low,"Medicinal/pest control tree, hardy, tropical/subtropical",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-G4k7l8gB3j0r1vL1vJ0nE7u1q_tK5H5m-w&s
+Bamboo (Culm),15,35,800,2500,high,"Timber/fiber product, requires high moisture for growth",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-q4z8g4p_fL_d0y4w9j4t6gN5F_V0m-r-6Q&s
+Switchgrass,10,30,400,1000,low,"Biofuel/forage grass, very hardy, deep-rooted",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-v3pX8kQ0K3eH-x4o6Y0m-K9gC4j9F9yA&s
+Miscanthus,5,25,600,1200,med,"Biofuel/biomass grass, cool season, sterile hybrid",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ6tB7p2-9f6M4dJ8p0f0YqP-9r-2J9d8qA&s

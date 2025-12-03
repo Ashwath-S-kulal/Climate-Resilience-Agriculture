@@ -1,0 +1,123 @@
+crop,minRainfall,maxRainfall,maxComfortTemp
+maize,50,250,34
+wheat,30,200,32
+rice,100,400,38
+sorghum,40,200,40
+millet,25,200,40
+soybean,60,300,35
+sugarcane,100,500,38
+cotton,60,300,37
+groundnut,50,250,36
+barley,25,180,30
+oats,30,250,28
+chickpea,30,200,33
+pigeonpea,40,300,38
+lentil,25,200,30
+mustard,20,200,30
+rapeseed,35,250,32
+sunflower,40,250,35
+potato,50,300,30
+tomato,40,250,32
+onion,40,200,30
+garlic,40,200,28
+banana,100,500,36
+grapes,40,200,35
+apple,60,250,25
+orange,50,300,35
+tea,150,500,32
+coffee,120,400,32
+cocoa,150,500,34
+rubber,150,500,35
+cassava,50,350,38
+yam,80,350,35
+taro,100,400,34
+quinoa,30,150,32
+pearl millet,20,200,42
+foxtail millet,20,200,40
+buckwheat,30,200,30
+hemp,60,300,32
+tobacco,50,250,34
+beetroot,40,250,30
+carrot,40,250,28
+cabbage,60,350,28
+peas,30,200,28
+kidney bean,60,300,32
+black gram,60,300,34
+green gram,60,300,34
+cowpea,50,250,35
+fenugreek,30,180,30
+sesame,40,200,36
+jute,120,400,34
+flax,50,250,30
+rye,25,180,28
+triticale,25,200,32
+pumpkin,50,300,34
+cucumber,60,350,32
+bottle gourd,50,300,35
+bitter gourd,60,300,34
+ridge gourd,60,300,34
+brinjal,60,300,34
+cauliflower,50,300,28
+broccoli,60,350,25
+spinach,50,250,28
+lettuce,50,250,26
+coriander,20,200,28
+mint,60,350,30
+turmeric,100,500,35
+ginger,120,500,32
+cardamom,150,500,30
+clove,150,450,32
+cinnamon,150,450,32
+papaya,60,350,35
+pineapple,100,400,32
+mango,60,350,36
+guava,60,350,35
+lychee,100,400,30
+pomegranate,50,300,35
+watermelon,60,300,34
+muskmelon,60,300,34
+strawberry,80,300,26
+blueberry,120,400,26
+raspberry,120,350,25
+blackberry,120,350,28
+almond,60,300,30
+walnut,70,300,28
+cashew,60,300,35
+date palm,20,150,42
+fig,40,250,35
+olive,30,200,32
+avocado,120,400,30
+pear,60,250,25
+plum,60,250,28
+apricot,60,250,28
+peach,60,250,28
+nectarine,60,250,28
+hazelnut,70,300,26
+macadamia,100,400,30
+cranberry,120,400,22
+saffron,20,150,28
+vanilla,150,500,32
+hops,60,350,28
+agave,20,150,38
+aloe vera,25,200,38
+kale,50,300,26
+mustard greens,40,250,28
+beet greens,50,250,28
+sweet potato,60,350,34
+spring onion,40,200,28
+leek,40,200,26
+asparagus,60,250,30
+artichoke,80,300,28
+okra,60,350,34
+drumstick,30,250,40
+tamarind,80,300,38
+jackfruit,100,400,34
+custard apple,60,300,36
+passion fruit,100,400,30
+dragon fruit,50,250,35
+kiwi,120,400,25
+starfruit,120,350,32
+longan,120,350,32
+durian,150,500,32
+breadfruit,100,450,32
+plantain,100,450,36
