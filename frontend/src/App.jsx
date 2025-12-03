@@ -44,6 +44,9 @@ export default function App() {
           <Route path='/stratergies' element={<Stratergies />} />
           <Route path='/adaptation' element={<Adaptation />} />
           <Route path='/tips' element={<Tips />} />
+
+
+
           <Route element={<PrivateRoute />}>
             <Route path="/profile" element={<Profile />} />
             <Route path='/weather' element={<Weather />} />
@@ -52,6 +55,8 @@ export default function App() {
             <Route path='/croprecomnder' element={<CropRecomnder />} />
             <Route path='/cropriskcalculater' element={<CropRiskCalculater />} />
           </Route>
+
+          
         </Routes>
       </BrowserRouter>
     </div>
