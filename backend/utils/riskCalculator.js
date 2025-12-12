@@ -13,56 +13,59 @@ export function calculateRisk(
     const match = cropSensitivity.find(
       (c) => c.crop.trim().toLowerCase() === cropType.trim().toLowerCase()
     );
-    limits = match
-      ? {
-          minRainfall: Number(match.minRainfall),
-          maxRainfall: Number(match.maxRainfall),
-          maxComfortTemp: Number(match.maxComfortTemp),
-        }
-      : null;
-  } else {
-    limits = cropSensitivity[cropType] || null;
-  }
 
-  if (!limits && cropSensitivity["maize"]) {
-    console.warn(
-      `⚠️ Crop data not found for "${cropType}", using maize defaults.`
-    );
-    limits = cropSensitivity["maize"];
+    if (match) {
+      limits = {
+        minRainfall: Number(match.minRainfall),
+        maxRainfall: Number(match.maxRainfall),
+        maxComfortTemp: Number(match.maxComfortTemp),
+      };
+    }
   }
 
   if (!limits) {
-    throw new Error(
-      `Crop sensitivity data missing or invalid for "${cropType}".`
+    const maize = cropSensitivity.find(
+      (c) => c.crop.trim().toLowerCase() === "maize"
     );
+
+    if (maize) {
+      console.warn(
+        ` Crop data not found for "${cropType}", using maize defaults.`
+      );
+      limits = {
+        minRainfall: Number(maize.minRainfall),
+        maxRainfall: Number(maize.maxRainfall),
+        maxComfortTemp: Number(maize.maxComfortTemp),
+      };
+    } else {
+      console.warn(
+        `⚠️ Crop data missing for "${cropType}" and "maize". Using generic defaults.`
+      );
+      limits = {
+        minRainfall: 50,
+        maxRainfall: 200,
+        maxComfortTemp: 30,
+      };
+    }
   }
 
+  // Drought Risk 
   let droughtRisk = 1;
   const rainfallDeficit = limits.minRainfall - rainfall;
-
-  if (rainfallDeficit > 0) {
-    droughtRisk = Math.min(5, 2 + rainfallDeficit / 20);
-  }
-
-  if (temperature > limits.maxComfortTemp + 2) {
-    droughtRisk += 1;
-  }
-
+  if (rainfallDeficit > 0) droughtRisk = Math.min(5, 2 + rainfallDeficit / 20);
+  if (temperature > limits.maxComfortTemp + 2) droughtRisk += 1;
   if (soilType === "sandy") droughtRisk += 1;
-
   if (irrigation) droughtRisk -= 1;
   droughtRisk = clamp(droughtRisk);
 
+  //  Flood Risk 
   let floodRisk = 1;
   const rainfallExcess = rainfall - limits.maxRainfall;
-
-  if (rainfallExcess > 0) {
-    floodRisk = Math.min(5, 2 + rainfallExcess / 30);
-  }
-
+  if (rainfallExcess > 0) floodRisk = Math.min(5, 2 + rainfallExcess / 30);
   if (soilType === "clay") floodRisk += 1;
   floodRisk = clamp(floodRisk);
 
+  // Heat Risk 
   let heatRisk = 1;
   if (temperature > limits.maxComfortTemp) {
     heatRisk += (temperature - limits.maxComfortTemp) / 2;

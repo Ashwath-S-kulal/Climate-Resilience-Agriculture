@@ -142,6 +142,27 @@ export default function CropRiskCalculater() {
   const [loadingLoc, setLoadingLoc] = useState(false);
   const [loadingRisk, setLoadingRisk] = useState(false);
   const [showCropSug, setShowCropSug] = useState(false);
+  const [placeSuggestions, setPlaceSuggestions] = useState([]);
+  const [showPlaceSug, setShowPlaceSug] = useState(false);
+
+  const fetchPlaceSuggestions = async (query) => {
+    if (!query) {
+      setPlaceSuggestions([]);
+      setShowPlaceSug(false);
+      return;
+    }
+    try {
+      const res = await axios.get(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&addressdetails=1&limit=5`
+      );
+      setPlaceSuggestions(res.data);
+      setShowPlaceSug(res.data.length > 0);
+    } catch (error) {
+      console.error(error);
+      setPlaceSuggestions([]);
+      setShowPlaceSug(false);
+    }
+  };
 
 
   useEffect(() => {
@@ -252,38 +273,58 @@ export default function CropRiskCalculater() {
                 )}
               </div>
 
-              <div>
-                <label className=" text-gray-700 font-medium mb-2 flex items-center gap-2 text-sm sm:text-base">
-                  <FaMapMarkerAlt /> Farm Location
-                </label>
-                <div className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center">
-                  <input
-                    type="text"
-                    value={place}
-                    onChange={(e) => setPlace(e.target.value)}
-                    placeholder="e.g., Delhi, India"
-                    className="flex-1 w-full p-3 rounded-xl border border-gray-300 text-sm sm:text-base focus:ring-2 focus:ring-green-500 outline-none transition"
-                    autoComplete="off"
-                  />
-                  <button
-                    type="button"
-                    onClick={handleUseLocation}
-                    disabled={loadingLoc}
-                    className="bg-green-600 hover:bg-green-700 text-white px-4 p-3 rounded-xl transition flex items-center gap-2 justify-center text-sm w-full sm:w-auto min-w-[160px]"
-                  >
-                    {loadingLoc ? (
-                      <>
-                        <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
-                        Fetching...
-                      </>
-                    ) : (
-                      <div className="flex gap-2 items-center">
-                        <FaMapMarkerAlt /> Use Current Location
+              <div className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center relative">
+                <input
+                  type="text"
+                  value={place}
+                  onChange={(e) => {
+                    setPlace(e.target.value);
+                    fetchPlaceSuggestions(e.target.value);
+                  }}
+                  onFocus={() => setShowPlaceSug(placeSuggestions.length > 0)}
+                  onBlur={() => setTimeout(() => setShowPlaceSug(false), 100)}
+                  placeholder="e.g., Delhi, India"
+                  className="flex-1 w-full p-3 rounded-xl border border-gray-300 text-sm sm:text-base focus:ring-2 focus:ring-green-500 outline-none transition"
+                  autoComplete="off"
+                />
+                <button
+                  type="button"
+                  onClick={handleUseLocation}
+                  disabled={loadingLoc}
+                  className="bg-green-600 hover:bg-green-700 text-white px-4 p-3 rounded-xl transition flex items-center gap-2 justify-center text-sm w-full sm:w-auto min-w-[160px]"
+                >
+                  {loadingLoc ? (
+                    <>
+                      <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+                      Fetching...
+                    </>
+                  ) : (
+                    <div className="flex gap-2 items-center">
+                      <FaMapMarkerAlt /> Use Current Location
+                    </div>
+                  )}
+                </button>
+
+                {/* Place suggestions dropdown */}
+                {showPlaceSug && placeSuggestions.length > 0 && (
+                  <div className="absolute top-full left-0 w-full bg-white border rounded-xl shadow-lg max-h-44 overflow-auto z-20">
+                    {placeSuggestions.map((p, i) => (
+                      <div
+                        key={i}
+                        onMouseDown={() => {
+                          setPlace(p.display_name);
+                          setShowPlaceSug(false);
+                        }}
+                        className="p-3 text-sm hover:bg-green-100 cursor-pointer"
+                      >
+                        {p.display_name}
                       </div>
-                    )}
-                  </button>
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
+
+
               <button
                 type="submit"
                 disabled={loadingRisk}
@@ -315,7 +356,7 @@ export default function CropRiskCalculater() {
                 </h2>
                 <div className="space-y-3 sm:space-y-4 text-left text-sm sm:text-base">
                   <p className="flex items-start gap-2"><FaMapMarkerAlt className="text-green-600 mt-1" /><span className="font-bold">Location:</span>
-                  <span className="pl-2 whitespace-pre-line break-words">
+                    <span className="pl-2 whitespace-pre-line break-words">
                       {result?.location?.place || (
                         <span className="text-sm italic text-gray-600">
                           Awaiting input...

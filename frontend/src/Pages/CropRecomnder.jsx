@@ -31,7 +31,7 @@ export default function CropRecommender() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [remoteCropCatalog, setRemoteCropCatalog] = useState([]);
-    const [remoteCropImages, setRemoteCropImages] = useState({}); 
+    const [remoteCropImages, setRemoteCropImages] = useState({});
     const [isCatalogLoaded, setIsCatalogLoaded] = useState(false);
 
     const HEADERS = {
@@ -125,7 +125,7 @@ export default function CropRecommender() {
         return reasons.join(". ");
     };
 
-    const recommendCrops = useCallback((climateData, topN = 15) => { 
+    const recommendCrops = useCallback((climateData, topN = 15) => {
         if (!isCatalogLoaded || remoteCropCatalog.length === 0) return [];
 
         const scored = remoteCropCatalog.map(c => {
@@ -135,7 +135,7 @@ export default function CropRecommender() {
                 ...c,
                 score,
                 monthsFraction,
-                image: remoteCropImages[c.name] 
+                image: remoteCropImages[c.name]
             };
         });
         const filtered = scored.filter(c => c.score >= 0.15).sort((a, b) => b.score - a.score);
@@ -147,7 +147,7 @@ export default function CropRecommender() {
             monthsFraction: Number(c.monthsFraction.toFixed(2)),
             water: c.water || "med"
         }));
-    }, [isCatalogLoaded, remoteCropCatalog, remoteCropImages]); 
+    }, [isCatalogLoaded, remoteCropCatalog, remoteCropImages]);
 
     const fetchForLocation = useCallback(async (lat, lon) => {
         if (!isCatalogLoaded) return;
@@ -167,7 +167,7 @@ export default function CropRecommender() {
             setError("Failed to fetch climate or recommendations.");
         }
         setLoading(false);
-    }, [isCatalogLoaded, remoteCropCatalog, recommendCrops]); 
+    }, [isCatalogLoaded, remoteCropCatalog, recommendCrops]);
 
     const handleSubmit = async () => {
         setError(""); setGeocode(null); setClimate(null); setRecommendations([]);
@@ -218,7 +218,7 @@ export default function CropRecommender() {
                 }, {});
 
                 setRemoteCropCatalog(catalog);
-                setRemoteCropImages(images); 
+                setRemoteCropImages(images);
                 setIsCatalogLoaded(true);
             } catch (error) {
                 console.error("Failed to fetch crop catalog from backend:", error);
@@ -311,9 +311,9 @@ export default function CropRecommender() {
                                 {loading ? (<><IconLoader className="animate-spin" size={20} /> Analyzing...</>) : isCatalogLoaded ? ("Get Recommendation") : (<><IconLoader className="animate-spin" size={20} /> Loading DB...</>)}
                             </button>
                         </div>
-                        {error && <p className="text-red-600 mt-2 font-medium text-center text-sm">{error}</p>}
                     </div>
                 </div>
+
             </div>
 
             <main className="w-full max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-0">
@@ -325,7 +325,7 @@ export default function CropRecommender() {
                         </p>
                     </div>
                 )}
-
+                {error && <p className="text-red-600 mt-2 font-medium text-center text-sm">{error}</p>}
                 {!loading && isCatalogLoaded && geocode && climate && (
                     <div className="space-y-8">
 

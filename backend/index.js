@@ -8,6 +8,10 @@ import cookieParser from "cookie-parser";
 import predictionRoutes from "./routes/prediction.route.js";
 import riskcalculateRoutes from "./routes/riskCalculator.route.js"
 import cropReccomender from "./routes/cropRecommender.route.js"
+import supplementRoutes from "./routes/supplement.routes.js";
+import cropInfoRoutes from "./routes/cropInfo.route.js"
+import cropStepRoutes from "./routes/cropStep.route.js";
+import cropdiseaseRoutes from "./routes/cropdisease.route.js"
 
 dotenv.config();
 const app = express();
@@ -22,7 +26,10 @@ app.use("/api/ai", chatbotRoutes);
 app.use("/api/predictions", predictionRoutes);
 app.use("/api/calculate", riskcalculateRoutes);
 app.use("/api/reccomender", cropReccomender);
-
+app.use("/api/supplements", supplementRoutes);
+app.use("/api/cropinfo", cropInfoRoutes);
+app.use("/api/cropsteps", cropStepRoutes);
+app.use("/api/cropdiseases", cropdiseaseRoutes);
 
 
 const PORT = process.env.PORT || 3000;

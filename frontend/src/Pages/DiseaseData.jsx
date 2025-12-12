@@ -9,27 +9,23 @@ export default function CsvReader() {
   const [csvData, setCsvData] = useState([]);
   const [selectedDisease, setSelectedDisease] = useState("");
   const [expandedIndex, setExpandedIndex] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+
 
   useEffect(() => {
-    setIsLoading(true);
-    fetch("../../public/data/disease_info.csv")
-      .then((res) => res.text())
-      .then((csv) => {
-        Papa.parse(csv, {
-          header: true,
-          skipEmptyLines: true,
-          complete: (results) => {
-            setCsvData(results.data);
-            setIsLoading(false);
-          },
-        });
+    setLoading(true);
+    fetch("/api/cropdiseases")
+      .then(res => res.json())
+      .then(data => {
+        setCsvData(data);
+        setLoading(false);
       })
-      .catch((error) => {
-        console.error("Error loading CSV:", error);
-        setIsLoading(false);
+      .catch(error => {
+        console.error("Error fetching disease data:", error);
+        setLoading(false);
       });
   }, []);
+
 
 
   const uniqueDiseaseNames = useMemo(() => {
@@ -46,21 +42,6 @@ export default function CsvReader() {
 
 
 
-  if (isLoading) {
-    return (
-      <div className="p-8 min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="text-center p-16 bg-white rounded-2xl shadow-xl max-w-lg border border-indigo-100">
-          <p className="text-3xl font-bold text-indigo-600 mb-4 flex items-center justify-center">
-            <IoHeartCircleOutline className="mr-3 w-8 h-8 text-teal-500 animate-spin" />
-            Loading Disease Data...
-          </p>
-          <p className="text-gray-500 text-lg">
-            Please wait while the dataset is securely retrieved and processed.
-          </p>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="p-2 md:p-4 min-h-screen bg-gray-50">
@@ -71,10 +52,18 @@ export default function CsvReader() {
             <FaSyringe className="text-teal-500 w-8 h-8" />
             <span>Disease Data Dashboard</span>
           </h1>
-          
+
         </div>
+        {(loading) && (
+          <div className="flex flex-col justify-center items-center py-12">
+            <div className="w-12 h-12 border-4 border-green-500 border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-md font-medium text-green-600 mt-3">
+              {"Loading Crop Database..."}
+            </p>
+          </div>
+        )}
         <div className=" mx-auto">
-          {filteredData.length > 0 ? (
+          {filteredData.length > 0 && (
             <div className="bg-white shadow-2xl rounded-2xl overflow-hidden border border-indigo-200">
 
               <div className="flex flex-col sm:flex-row justify-between items-center bg-gradient-to-t from-green-800 to-green-600 text-white font-bold p-4 sm:p-6">
@@ -200,12 +189,6 @@ export default function CsvReader() {
                   No data found for the selected disease.
                 </div>
               )}
-            </div>
-          ) : (
-            <div className="text-center p-16 bg-white rounded-2xl shadow-xl max-w-lg mx-auto border border-indigo-100 mt-10">
-              <p className="text-2xl font-bold text-red-500 mb-2">
-                Data Not Available
-              </p>
             </div>
           )}
         </div>
