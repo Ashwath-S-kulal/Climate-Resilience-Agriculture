@@ -10,7 +10,6 @@ export default function AboutSection() {
             alt="Farmer with crops"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />
-
           <div className="absolute inset-0 bg-gradient-to-t from-green-900/70 via-green-800/40 to-transparent"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
